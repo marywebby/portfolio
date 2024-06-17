@@ -1,11 +1,16 @@
 import React from 'react'
+import { Spotlight } from './ui/Spotlight'
 
-const hero = () => {
+const Hero = () => {
   return (
-    <div className=''>
-        hero
+    <div className="pb-20 pt-36">
+        <div>
+            <Spotlight className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen" fill='white'/>
+            <Spotlight className="-top-10 -left-full h-[80-vh] v-[50-vw]" fill='purple'/>
+            <Spotlight className="-top-28 -left-80 h-[80-vh] v-[50-vw]" fill='blue'/>
+        </div>
     </div>
   )
 }
 
-export default hero
+export default Hero 
