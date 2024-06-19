@@ -28,7 +28,7 @@ const Hero = () => {
             /> 
 
             <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-              hi! i&apos;m Mary, a software developer based in Chicago, IL. 
+              Hi! i&apos;m Mary, a software developer based in Chicago, IL. 
             </p>
 
             <a href="#about">
