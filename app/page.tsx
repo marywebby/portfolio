@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import { FloatingNav } from "@/components/ui/FloatingNav";
 
 export default function Home() {
   return (
@@ -9,7 +10,10 @@ export default function Home() {
     overflow-hidden 
     mx-auto 
     sm:px-10 px-5">  
-    <Hero />
+    <div className="max-x-7xl w-full">
+      <FloatingNav navItems={[]}/>
+      <Hero />
+    </div>
     </main>
   );
 } 
