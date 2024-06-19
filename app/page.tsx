@@ -10,7 +10,6 @@ export default function Home() {
     mx-auto 
     sm:px-10 px-5">  
     <Hero />
-      <h1 className="max-w-7xl w-full">Hello, Portfolio</h1>
     </main>
   );
 } 
